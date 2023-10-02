@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: auto;
+}
+
+h1 {
+    background-color: orange;
+}
+
+h2 {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+body {
+  background-image: url("../imagenes/descarga.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  }
+
+#nE {
+  background-color: yellow;
+}
+
+
+#moderno li {
+  color: blue;
+}
+
+
+#contenedor {
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+   }
+   
+   #lateral {
+    width: 50%;  /* Este será el ancho que tendrá tu columna */
+    background-color: #CCCCCC;  /* Aquí pon el color del fondo que quieras para este lateral */
+    float:right; /* Aquí determinas de lado quieres quede esta "columna" */
+   }
+   
+   #principal {
+    width: 40%;
+    float: left;
+    background-color: #FFFFFF;
+    border:#000000 1px solid; /* ponemos un donde para que se vea bonito */
+   }
+   /* Para limpiar los floats */
+   .clearfix:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+   footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#999;
+    text-align: center;
+ }
+
+
+
+
+
+ 

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>...:: Aprendiendo DOM::...</title>
+  <link rel="stylesheet" href="./css/base.css" />
+</head>
+
+<body>
+  <h1>Lenguajes de Programación - Evaluación 1 / 704 </h1>
+  <p>El modelo de objeto de documento (DOM) es una API para los documentos HTML.
+    Permite una representación estructurada del documento y define de qué
+    manera se puede acceder y modificar la estructura, estilo y contenido.</p>
+  <br><br>
+  <p>Vamos a aprovechar la lista de lenguajes de programación de todos los tiempos ... para la <b><mark>Evaluación
+        1</mark></b> ... </p>
+
+
+  <div id="contenedor" class="clearfix">
+    <div id="lateral">
+      <h2>Los LP modernos</h2>
+      <p>Por ejemplo:</p>
+      <ul class="lp jvm" id="moderno">
+        <li>Go</li>
+        <li>Kotlin</li>
+        <li>Ceylon</li>
+        <Li>Swift</Li>
+        <Li>R</Li>
+        <li>Rust</li>
+        <li>Objective-C</li>
+        <li>Scala</li>
+        <li>Groovy</li>
+        <li>Fantom</li>
+        <li>Clojure</li>
+      </ul>
+    </div>
+    <div id="principal">
+      <h2>DIEGO VILLANUEVA ALFARO</h2>
+      <p>Completar el Formulario</p>
+      <form class="form">
+        <ul>
+          <li>
+            <label for="nombre">Lenguaje :</label>
+            <input type="text" name="nombre" id="nombre">
+          </li>
+          <li>
+            <label for="nombre">Año :</label>
+            <input type="text" name="anho" id="anho">
+          </li>
+          <li>
+            <button type="button" id="miBoton" onclick="ejecutarInstruccion()" 
+            >Unir Datos y Agregar a la Lista</button>
+            <button type="reset">Limpiar</button>
+            <button type="button" id="ordenar" onclick="ordenarListaAscendente()">Ordenar</button>
+
+          </li>
+        </ul>
+      </form>
+    </div>
+  </div>
+  <footer>
+    &copy; Programación Web 704 /  2023-2  <mark>DIEGO VILLANUEVA ALFARO</mark>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+Inicio
+tablas
+Contacto
+Open
+Download
+
+
+Articulo 2: Hola Mundo HTML
+Asi se hace un Hola Mundo en HTML ...
+
+                &lt;html&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt;Hola mundo !!!&lt;/h1&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+
+
+Articulo 3: Que es HTML ?
+HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcas de hipertexto’), hace
+referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de
+referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones,
+define una estructura básica y un código (denominado código HTML) para la definición de contenido de
+una página web, como texto, imágenes, videos, juegos, entre otros.
+
+Articulo 4: formatos
+aqui pondremos preguntas de las practicas
+Durante la semana 1 aprenderemos esto:
+
+                Historia de HTML. Estructura de un documento. 
+                Block vs Inline. Principales tags de
+                HTML: cabecera, cuerpo, párrafos, meta tags, enlaces, 
+                anclajes, imágenes, listas,
+                tablas, formularios, audio y video. 
+                Tags para formularios. 
+
+"Hipertexto" se refiere a los enlaces que conectan las páginas web entre sí, ya sea dentro de un mismo sitio web o entre diferentes sitios web. los vínculos son un aspecto fundamental de la web. Al subir contenido a Internet y vincularlo a páginas creadas por otras personas, te haces participante activo en la red mundial (World Wide Web).</small>
+
+Developer Mozilla Docs
+Tomado de https://developer.mozilla.org/es/docs/Web/HTML
+            Laboratorio a las 19:00 horas
+            Laboratorio el dia 28 de Agosto horas
+
+Articulo 5: Imagenes
+
+
+Articulo 6: Listas
+ Una lista de terminos
+
+página web
+documento accesible desde cualquier navegador con acceso a internet, y que puede incluir audio, vídeo, texto y sus diferentes combinaciones.</dd>
+hiperenlace
+o hipervínculo (del inglés hyperlink), o sencillamente enlace o vínculo (link), es un elemento de un documento electrónico que hace referencia a otro recurso.</dd>
+
+
+Manejando Listas Ordenadas
+Referencia 1
+Referencia 2
+
+Manejando Listas DesOrdenadas
+Referencia 1
+Referencia 2
+
+
+
+Derechos reservados 2023-2 Universidad de Lima Correo
+Somos 36 en esta seccion
+Hay 36 estudiantes para front end
+Hay 36 estudiantes para back end

@@ -1,0 +1,65 @@
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de un JS con formulario::..</title>
+    <script src="./js/suma.js"></script>
+</head>
+
+<body>
+    <h1>Formulario sencillo</h1>
+    <form action="#" method="GET">
+        <p>
+            Valor 1: <input type="text" name="v1" id="id1"/>
+        </p>
+        <p>
+            Valor 2: <input type="text" name="v2" id="id2"/>
+        </p>
+        <input type="button" value = SUMAR onclick="sumar();"> </button>
+        <input type="reset" value="LIMPIAR" >
+    </form>
+    <p>
+        <h2>la repesta es</h2>
+        <div id="rpta"></div>
+    </p>
+</body>
+</html>
+
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de un JS con formulario</title>
+    <script src="./js/suma.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <form action="#" method="GET">
+        <p>
+            Valor 1: <input type="text" name="v1" id="id1"/>
+        </p>
+        <p>
+            Valor 2: <input type="text" name="v2" id="id2"/>
+        </p>
+        <p>
+            <input type="button" value="SUMAR" onclick="realizarOperacion('suma');">
+            <input type="button" value="RESTAR" onclick="realizarOperacion('resta');">
+            <input type="button" value="MULTIPLICAR" onclick="realizarOperacion('multiplicacion');">
+            <input type="button" value="DIVIDIR" onclick="realizarOperacion('division');">
+        </p>
+        <input type="reset" value="LIMPIAR">
+    </form>
+    <p>
+        <h2>El resultado es:</h2>
+        <div id="rpta"></div>
+    </p>
+</body>
+</html>
